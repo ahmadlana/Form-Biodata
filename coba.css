@@ -1,0 +1,89 @@
+body {
+	background: url(IMG20190615073028.jpg);
+	background-size: cover;
+	font-family: Arial;
+}
+
+.isien-biodatane {
+	box-shadow: 0 0 20px;
+	width: 600px;
+	height: 800px;
+	background: rgb(225,225,225,.5);
+	border-radius: 10px;
+	padding: 20px;
+	margin: 28px auto;
+}
+
+.isien-biodatane h2{
+	text-align: center;
+	padding: 30px 0 40px;
+	margin:0;
+}
+
+.isien-biodatane p {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: #000;
+}
+
+.isien-biodatane input[type="date"], input[type="text"] {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.isien-biodatane input[type="radio"] {
+	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+.isien-biodatane input[type="text"], input[type="text"] {
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+}
+.isien-biodatane input[type="date"] {
+	border: none;
+	border-bottom: 1px solid #000;
+	outline: none;
+	height: 40px;
+	color: grey;
+	margin-bottom: 35px;
+}
+.isien-biodatane input[type="submit"] {
+	margin-left: 450px;
+	margin-top: 5px;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #000;
+	background: #03a9f4;
+	padding: 10px 30px;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 0 0 15px;
+}
+
+.jenengku {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding-left: 10px;
+	width: 200px;
+	height: 75px;
+	border: 3px solid white;
+	color: white;
+	margin: 8px;
+}
+img {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 7px;
+	border-radius: 5px;
+}
